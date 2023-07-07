@@ -1,0 +1,104 @@
+:root{
+    height: 1050px;
+    width: 1356px;
+    margin: 0;
+}
+
+body{
+    height: 1050px;
+    width: 1356px;
+    margin: 0;
+}
+
+#hist1{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    z-index: 1;
+    font-size: 16px;
+}
+
+#hist2{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: 400px;
+    z-index: 1;
+    color: #000;
+    font-size: 12px;
+    width: 550px;
+}
+
+#ipcd{
+    height: 40px;
+    width: 1356px;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-fill-color: rgb(7, 151, 50);
+    border: 1px solid rgb(217, 255, 159);
+    background-color: rgb(217, 255, 159);
+    font-size: 30px;
+    position: fixed;
+    bottom: 600px;
+    z-index: 5;
+}
+
+#menu{
+    height: 20px;
+    color: green;
+    position: fixed;
+    top: 50px;
+    right: 1250px;
+    list-style: none;
+}
+
+#ind a{
+    border: 1px solid rgb(82, 224, 82);
+    background-color: rgb(82, 224, 82);
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+#cont{
+    position: absolute;
+    top: 850px;
+    z-index: 1;
+    list-style: none;
+    right: 900px;
+}
+
+#cont p{
+    color: black;
+}
+
+picture{
+    height: 350px;
+    width: 350px;
+    opacity: 50%;
+    border:1px solid rgb(0, 0, 0);
+    position: absolute;
+    left: 180px;
+    bottom: 260px;
+}
+
+
+div{
+    height: 20px;
+    width: 1356px;
+    border: 1px solid rgb(82, 79, 79);
+    background-color: rgb(82, 79, 79);
+    position: absolute;
+    top: 1010px;
+    text-align: center;
+    font-size: 10px;
+}
+
+div, p{
+    position: relative;
+    bottom: 7px;
+    color: rgb(168, 163, 163);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
